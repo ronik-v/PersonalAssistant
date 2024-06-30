@@ -1,4 +1,4 @@
-package com.ronik.todoapplication
+package com.ronik.todoapplication.core
 
 import android.annotation.SuppressLint
 import android.content.ContentValues
@@ -6,6 +6,7 @@ import android.content.Context
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
+import com.ronik.todoapplication.data.Task
 
 // Table model for todoapp
 

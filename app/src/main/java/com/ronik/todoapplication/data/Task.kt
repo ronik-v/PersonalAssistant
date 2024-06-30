@@ -1,4 +1,4 @@
-package com.ronik.todoapplication
+package com.ronik.todoapplication.data
 
 // Task class model
 class Task(val taskTitle: String, val taskText: String) {
