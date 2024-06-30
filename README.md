@@ -1,5 +1,5 @@
-# TaskList
-_Todo application for android_
+# PersonalAssistant
+_Application that helps me around the day_
 
 ## Technologies
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
