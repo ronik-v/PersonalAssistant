@@ -8,6 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:background="@color/white"
         tools:context=".NewNoteFragment"
         android:padding="12dp">
 
@@ -30,8 +31,10 @@
             android:layout_below="@id/addNoteHeading"
             android:layout_marginTop="16dp"
             android:background="@drawable/blue_border"
+            android:textColor="@color/turquoise"
             android:fontFamily="@font/poppins_italic"
             android:hint="Введите заголовок"
+            android:textColorHint="@color/blue"
             android:maxLines="1"
             android:padding="12dp"
             android:textSize="20sp" />
@@ -45,7 +48,9 @@
             android:background="@drawable/blue_border"
             android:fontFamily="@font/poppins_italic"
             android:gravity="top"
+            android:textColor="@color/turquoise"
             android:hint="Введите описание"
+            android:textColorHint="@color/blue"
             android:padding="12dp"
             android:textSize="18sp" />
 

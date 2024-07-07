@@ -9,6 +9,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="12dp"
+        android:background="@color/white"
         tools:context=".UpdateNoteFragment">
 
         <TextView
@@ -29,10 +30,12 @@
             android:layout_width="match_parent"
             android:layout_height="60dp"
             android:hint="Введите заголовок"
+            android:textColorHint="@color/blue"
             android:padding="12dp"
             android:textSize="20sp"
             android:layout_below="@id/editNoteHeading"
             android:background="@drawable/blue_border"
+            android:textColor="@color/turquoise"
             android:layout_marginTop="16dp"
             android:maxLines="1"
             android:fontFamily="@font/poppins_italic"
@@ -43,11 +46,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Введите описание"
+            android:textColorHint="@color/blue"
             android:gravity="top"
             android:padding="12dp"
             android:textSize="18sp"
             android:fontFamily="@font/poppins_italic"
             android:background="@drawable/blue_border"
+            android:textColor="@color/turquoise"
             android:layout_below="@id/editNoteTitle"
             android:layout_marginTop="12dp"
             tools:ignore="HardcodedText" />
